@@ -1,0 +1,24 @@
+*{ padding: 0%;
+    margin: 0%;
+    color: white;
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#two{
+    background-color:black;
+    height: 60px;
+}
+#three{
+    color: #f08804;
+}
+#seven{
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

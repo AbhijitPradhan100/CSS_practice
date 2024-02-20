@@ -1,0 +1,14 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    font-size: 10px;
+}
+#div2{
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    margin-left: 10%;
+    /* 2 times of parent font size */
+    font-size: 2em;
+}

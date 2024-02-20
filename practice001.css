@@ -1,0 +1,30 @@
+
+.heading{
+    color: red;
+}
+/*button{
+    color: green;
+}*/
+#box{
+    background-color: aqua;
+}
+.one{
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two{
+    text-align: right;
+    text-decoration: wavy overline;
+}
+.three{
+    font-size: 20px;
+}
+.four{
+    font-size: 10px;
+}
+.five{
+    line-height: 100px;
+    text-transform: uppercase;
+}

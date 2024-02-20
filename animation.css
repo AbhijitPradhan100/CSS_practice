@@ -1,0 +1,33 @@
+@keyframes Animation{
+    from{
+        background-color: aqua;
+        left: 0px;
+    }
+    to{
+        background-color: cornflowerblue;
+        left: 1000px;
+        color: white;
+    }
+    /* can use this for multiple phases
+    0%-25%-50%-100% */
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: 2px tomato dotted;
+    border-radius: 50%;
+    animation-name: Animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation direction */
+    /* aniamtion shorthand
+        Animate 2s ease-in 1s infinite alternate */
+}

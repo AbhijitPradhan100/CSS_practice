@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px rgb(206, 206, 206) solid;
+    border-top: 20px grey solid;
+    animation-name: spinAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    
+}
+
+@keyframes spinAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
